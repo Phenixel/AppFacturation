@@ -1,0 +1,77 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+/* Gén&éral */
+
+body{
+    background-color: whitesmoke;
+}
+
+img{
+    width: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+}
+
+h2{
+    margin: 5%;
+    text-align: left;
+}
+
+table{
+    margin: 5%;
+    border-style: solid;
+}
+
+
+/* Section 1 */
+
+.parent {
+    margin: 0 5% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+    
+.infos { 
+    margin:4%;
+    grid-row: 1;
+    grid-column: 1; 
+ }
+
+.clients {
+    margin: 5%;  
+    grid-row: 1;
+    grid-column: 2;
+ }
+
+/* Section 2 : Liste des missions */
+.cards{
+    margin: 5%;
+}
+
+.cards_missions{
+    display: grid;
+    margin: 0 5% 0 5%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
+
+.generate{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
